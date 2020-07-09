@@ -1,6 +1,6 @@
 ---
 title: Info Page
-layout: page
+layout: home
 
 # The About page
 # v2.0
@@ -9,4 +9,3 @@ layout: page
 # MIT License
 ---
 
-> Trial page
