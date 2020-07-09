@@ -58,7 +58,7 @@ layout: page
     </div>
     <div class="post-excerpt">
     {% if post.excerpt %}
-      <h5>{{ post.excerpt | markdownify }}</h5>
+      <p>{{ post.excerpt | markdownify }}</p>
       <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <i class='fas fa-angle-double-right'></i></a></p>
     {% endif %}
     </div>

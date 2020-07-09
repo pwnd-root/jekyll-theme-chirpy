@@ -1,12 +1,11 @@
 ---
 title: Legacy Writeup- HackTheBox
-author: Murali Vallimanalan
+author: pwnd_root
 date: 2020-07-09 00:30:00 +0530
 excerpt: A windows host from HackTheBox, owned by exploiting SMB vulnerability, without metasploit.
-categories: [HackTheBox, Writeup]
-tags: [htb, hackthebox, samba, without metasploit, MS17-010, windows]
+categories: [HackTheBox, Retired]
+tags: [htb, samba, without metasploit, MS17-010, windows]
 ---
-
 ![Info Card](/assets/img/posts/legacy/info.png)
 
 ## Methodology

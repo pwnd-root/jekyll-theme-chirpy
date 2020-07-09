@@ -3,8 +3,8 @@ title: Lame Writeup- HackTheBox
 author: pwnd_root
 date: 2020-07-08 22:30:00 +0530
 excerpt: A linux box from HackTheBox- owned by exploiting a vulnerability in the samba service, without metasploit.
-categories: [HackTheBox, Writeup]
-tags: [htb, hackthebox, samba, without metasploit, linux]
+categories: [HackTheBox,Retired]
+tags: [htb, samba, without metasploit, linux]
 ---
 
 ![Info Card](/assets/img/posts/lame/info.png)
@@ -13,7 +13,7 @@ tags: [htb, hackthebox, samba, without metasploit, linux]
 1. Port Enumeration
 2. Samba version enumeration
 3. Manual exploit
-4. SYSTEM access to target
+4. Root access to target
 
 ## Ports Enumeration
 The nmap open ports scan had identified 4 open ports- ftp (21), ssh (22), netbios-ssn (139) and microsoft-ds (445) 
