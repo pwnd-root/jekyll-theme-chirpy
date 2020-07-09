@@ -7,7 +7,7 @@ excerpt: Note that this is still an active box, so it's highly suggested that yo
 categories: [HackTheBox, Active]
 tags: [htb, Bludit, CMS, sudo, linux, without metasploit]
 ---
-
+![Info Card](/assets/img/posts/blunder/info.png)
 ## Methodology
 1. Port Enumeration
 2. Web Service Enumeration
