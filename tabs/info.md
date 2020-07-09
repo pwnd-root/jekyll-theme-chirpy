@@ -9,5 +9,4 @@ layout: page
 # MIT License
 ---
 
-> Trial page<br>
-> Whoami
+> Trial page
