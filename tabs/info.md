@@ -1,5 +1,6 @@
 ---
-title: ">#id"
+title: Info Page
+layout: page
 
 # The About page
 # v2.0
@@ -8,5 +9,5 @@ title: ">#id"
 # MIT License
 ---
 
-## <center>uid=0(Murali Vallimanalan) gid=0(pwnd_root) groups=0(PenTester)</center>
-****
+> Trial page<br>
+> Whoami

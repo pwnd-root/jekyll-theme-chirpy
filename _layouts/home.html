@@ -56,12 +56,11 @@ layout: page
         title="Pinned"></i>
       {% endif %}
     </div>
-    <div class="post-content">
-      <p>
-      {% assign _content = post.content %}
-      {% include no-linenos.html %}
-      {{ _content | markdownify | strip_html | truncate: 200 }}
-      </p>
+    <div class="post-excerpt">
+    {% if post.excerpt %}
+      <h5>{{ post.excerpt | markdownify }}</h5>
+      <p><a href="{{ post.url | relative_url }}" class="more-link">{{ site.data.theme.t.read_more | default: 'Read More' }} <i class='fas fa-angle-double-right'></i></a></p>
+    {% endif %}
     </div>
 
     <div class="post-meta text-muted">
