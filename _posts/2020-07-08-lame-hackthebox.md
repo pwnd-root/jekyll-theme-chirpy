@@ -3,6 +3,7 @@ title: Lame Writeup- HackTheBox
 author: pwnd_root
 date: 2020-07-08 22:30:00 +0530
 excerpt: A linux box from HackTheBox- owned by exploiting a vulnerability in the samba service, without metasploit.
+thumbnail: /assets/img/posts/lame/info.png
 categories: [HackTheBox,Retired]
 tags: [htb, samba, without metasploit, linux]
 ---

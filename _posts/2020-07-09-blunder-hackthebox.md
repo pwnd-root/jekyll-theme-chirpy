@@ -2,11 +2,15 @@
 title: Blunder Writeup- HackTheBox
 author: pwnd_root
 date: 2020-07-09 23:30:00 +0530
-excerpt: Note that this is still an active box, so it's highly suggested that you try a bit harder before heading inside. 
+excerpt: Note that this is still an active box, so it's highly recommended that you try a bit harder before heading inside. 
          Feel free to reach me on my socials for spoiler-free nudges.
+thumbnail: /assets/img/posts/blunder/info.png
 categories: [HackTheBox, Active]
 tags: [htb, Bludit, CMS, sudo, linux, without metasploit]
 ---
+> Note that this is still an active box, so it's highly recommended that you try a bit harder before heading inside. 
+         Feel free to reach me on my socials for spoiler-free nudges.
+
 ![Info Card](/assets/img/posts/blunder/info.png)
 ## Methodology
 1. Port Enumeration

@@ -3,6 +3,7 @@ title: Legacy Writeup- HackTheBox
 author: pwnd_root
 date: 2020-07-09 00:30:00 +0530
 excerpt: A windows host from HackTheBox, owned by exploiting SMB vulnerability, without metasploit.
+thumbnail: /assets/img/posts/legacy/info.png
 categories: [HackTheBox, Retired]
 tags: [htb, samba, without metasploit, MS17-010, windows]
 ---
