@@ -19,7 +19,7 @@ description: >-                        # used by seo meta and the atom feed
 # Replace with the website url, e.g. 'https://username.github.io'
 url: 'https://pwnd-root.github.io'
 
-author: your_full_name                  # change to your full name
+author: pwnd_root                  # change to your full name
 
 avatar: /assets/img/logo.png   # support internet resources
 
