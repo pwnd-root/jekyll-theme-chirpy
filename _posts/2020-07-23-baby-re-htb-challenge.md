@@ -2,7 +2,7 @@
 title: Baby RE Challenge- HackTheBox
 author: pwnd_root
 date: 2020-07-23 22:30:00 +0530
-excerpt: Note that this is still an active box, so it's highly recommended that you try a bit harder before heading inside. 
+excerpt: Note that this is still an active challenge, so it's highly recommended that you try a bit harder before heading inside. 
          Feel free to reach me on my socials for spoiler-free nudges.
 categories: [HackTheBox, Challenge]
 thumbnail: /assets/img/posts/babyre/info.png
@@ -79,7 +79,7 @@ Try again later.
 ```
 ![Flag](/assets/img/posts/babyre/flag.png)
 
-Interestingly, the output of *strings* had also revealed the flag itself, if one were to look properly.
+Interestingly, the output of *strings* had also revealed the flag itself, if one were to look closely at the patterns.
 ```terminal
 [pwnd_root@manjaro Reversing]$ strings ./baby 
 /lib64/ld-linux-x86-64.so.2
